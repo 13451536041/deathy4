@@ -46,8 +46,8 @@ var rule = {
 		"User-Agent":"okhttp/3.12.0"
 	},
     timeout:5000,
-    class_name:'动漫&电视剧&电影&综艺&全部',
-    class_url:'4&2&1&3&0',
+    class_name:'动漫&电视剧&电影&综艺',
+    class_url:'4&2&1&3',
     limit:20,
     play_parse:true,
     //play_json:0,
