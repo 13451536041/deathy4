@@ -24,7 +24,7 @@ var rule = {
 	class_name:'影视综合&电视剧&电影&动漫&综艺', // 分类筛选 /api.php/app/nav
 	class_url:'5&2&1&4&3',
 	play_parse:true,
-		lazy:'js:input=/YuMi/.test(input)?JSON.parse(request("http://42.157.128.109:2323/CH/zy/Yumi.php?url="+input)).url:input',
+		lazy:'js:input=/YuMi/.test(input)?JSON.parse(request("https://jx.lvdoui.com/api/?key=2df2141f41357bb5fc696bf6d3f56f00&url="+input)).url:input',
 	limit:6,
 	推荐:'json:list[0].vlist;*;*;*;*',
 	一级:'json:list;vod_name;vod_pic;vod_remarks||vod_score;vod_id',
